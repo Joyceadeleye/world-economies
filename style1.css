@@ -1,0 +1,41 @@
+header {
+     background-image: url("banner2.png");
+}
+
+body {
+    background-color: cadetblue;
+}
+h1 {
+    color: black;
+}
+
+/* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: black;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+
+  th {
+    background-color: cornflowerblue;
+    color: cornsilk;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  td {
+    font-family: Verdana, Geneva, Tahoma, sans-serifss;
+    background-color: lightblue;
+  }

@@ -1,0 +1,53 @@
+<html>
+
+<head>
+    <title>World Economies</title>
+    <link rel="stylesheet" href="style1.css">
+<head>
+
+<body>
+
+<header align="right">
+    <a href="index.htm">Home</a>
+    <a href="china.htm">China</a>
+    <a href="usa.htm">United States of America</a>
+    <a href="uk.htm">United kingdom</a>
+
+    <h1 align="center">Welcome to the Home of World Economies</h1>
+</header>
+
+<!-- Slide Show -->
+<section>
+    <img class="mySlides" src="stock1.jpg" style="width:50%">
+    <img class="mySlides" src="stock2.jpg" style="width:50%">
+    <img class="mySlides" src="stock3.jpg" style="width:50%">
+    <img class="mySlides" src="stock4.jpg" style="width:50%">
+    <img class="mySlides" src="stock5.jpg" style="width:50%">
+    <img class="mySlides" src="stock6.jpg" style="width:50%">
+  </section>
+
+<script>
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+</script>
+
+
+
+
+
+</body>
+
+    </html>
